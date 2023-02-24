@@ -39,7 +39,7 @@ $(document).ready(function() {$("#a-address-step1-wrapa").click(function(){
             requestHeaders.append("Authorization", `token ${pat}`);
 
             const requestOptions = {
-                method: "PUT",
+                method: "POST",
                 headers: requestHeaders,
                 body: JSON.stringify(requestData)
             };
